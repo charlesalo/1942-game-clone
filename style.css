@@ -1,0 +1,48 @@
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#container{
+    background: url('background.png');
+    background-size: 320px 2164px;
+    width: 320px;
+    height: 640px;
+    overflow: hidden;
+    position: relative;
+}
+#hero{
+    background: url('1942.gif');
+    background-position: -34px -10px;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.enemy1{
+    background: url('1942.gif');
+    background-position: -86px -234px;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.bullet{
+    background: url('1942.gif');
+    background-position: -185px -400px;
+    width:18px;
+    height:18px;
+    position:absolute;
+}
+#score{
+    position:absolute;
+    color: white;
+    top:20px;
+    left:20px;
+    padding:7px;
+    font-size:20px;
+    font-family: Arial;	
+}
+.explosion {
+    position: absolute;
+    background-size: contain; /* Or the size of your entire sprite sheet if using different frames */
+}
